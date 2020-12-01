@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>observer</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./observer.css">
+    </head>
+    <body>
+        <div class="container">
+            <ul id="list">
+                <li class="item">
+                    <div class="left-to-right">从左往右</div>
+                    <div class="right-to-left">从右往左</div>
+                </li>
+                <li class="item"></li>
+                <li class="item"></li>
+                <li class="item"></li>
+                <li class="item">
+                    <div class="bottom-to-top">从下往上</div>
+                </li>
+            </ul>
+        </div>
+        <script src="./observer.js"></script>
+        <script>
+            intoViewActivate({
+                eleClassName: 'item',
+                activeClassName: 'active',
+                isOnceTime: true
+            })
+        </script>
+    </body>
+</html>
+

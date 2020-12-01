@@ -1,0 +1,19 @@
+{
+  "name": "blue-intersection-observer",
+  "version": "1.0.0",
+  "description": "intersection-observer-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniquesmilehxx/blue-intersection-observer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniquesmilehxx/blue-intersection-observer/issues"
+  },
+  "homepage": "https://github.com/uniquesmilehxx/blue-intersection-observer#readme"
+}

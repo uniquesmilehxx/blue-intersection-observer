@@ -4,7 +4,7 @@
  * @param {activeClassName} String: the className you need to add if the container come into view 
  * @param {isOnceTime: true} Boolean: is once-time or not(every-time)
  */
-function intoViewActivate ({eleClassName, activeClassName, isOnceTime = true}) {
+export function intoViewActivate ({eleClassName, activeClassName, isOnceTime = true}) {
     
     if (!eleClassName || !activeClassName) return
 
